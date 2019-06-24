@@ -28,7 +28,3 @@ script:
 after_success:
   - util/generate-latest-docs.sh
   - util/publish-snapshot-on-commit.sh
-
-branches:
-  only:
-    - master
